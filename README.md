@@ -1,16 +1,24 @@
-## Hi there 👋
+# Привет! Я jent 👋 
+### Fullstack Developer
 
-<!--
-**Jent12312/Jent12312** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Я создаю веб-приложения от идеи и базы данных до интерфейса и деплоя. Люблю писать чистый код и разбираться в том, как всё работает под капотом.
+Мой сайт: https://jents.online
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠 Мой стек технологий:
+
+**Frontend:**
+`HTML5` `CSS3` `JavaScript` `TypeScript` `React` `Vue` `TailwindCSS` `C++(QT)`
+
+**Backend:**
+`Node.js` `Express` `NestJS` `Python` `PostgreSQL` `MongoDB` `C++` `REDIS`
+
+**Инструменты & DevOps:**
+`Git` `Docker` `Linux` `Postman`
+
+---
+
+### 📫 Как со мной связаться:
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Atabek12312)
