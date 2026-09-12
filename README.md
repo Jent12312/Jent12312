@@ -1,24 +1,78 @@
-# Привет! Я JentS 👋 
-### Fullstack Developer
+# Привет! Я JentS 👋
+### Fullstack & Systems Developer
 
-Я создаю веб-приложения от идеи и базы данных до интерфейса и деплоя. Люблю писать чистый код и разбираться в том, как всё работает под капотом.
-Мой сайт: https://jents.online
+Разрабатываю масштабируемые веб-платформы, финтех-сервисы и системные утилиты для Windows. Уверенно совмещаю продуктовый веб (TypeScript, React, Next.js, Node.js) с системным низкоуровневым программированием (C, C++20, WinAPI) и архитектурным проектированием.
 
----
-
-### 🛠 Мой стек технологий:
-
-**Frontend:**
-`HTML5` `CSS3` `JavaScript` `TypeScript` `React` `Vue` `TailwindCSS` `C++(QT)`
-
-**Backend:**
-`Node.js` `Express` `NestJS` `Python` `PostgreSQL` `MongoDB` `C++` `REDIS`
-
-**Инструменты & DevOps:**
-`Git` `Docker` `Linux` `Postman`
+🌐 **Сайт:** [jents.online](https://jents.online) • 💬 **Telegram:** [@Atabek12312](https://t.me/Atabek12312)
 
 ---
 
-### 📫 Как со мной связаться:
+### 🚀 Публичные проекты (Кейсы & Архитектура)
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Atabek12312)
+#### 🚗 [DriveFlow](https://github.com/Jent12312/DriveFlow) — Modern Car Rental & Fleet Management
+* **Для чего создавалось:** Комплексная автоматизация автопроката — от онлайн-букинга клиентом до внутренней CRM-системы учёта и распределения автопарка.
+* **Статус:** 🟢 Завершённый продакшн-прототип / Готовая платформа.
+* **Что реализовано:** Двухфакторная KYC-верификация водителей, фотоосмотр состояния кузова с 4-х ракурсов, автоматическая генерация юридических договоров в PDF, интеграции с внешними автомобильными API.
+* **Стек:** `TypeScript` • `Node.js` • `Express` • `React` • `REST API`
+
+#### ⚡ [RapTM](https://github.com/Jent12312/RapTM) — P2P Crypto-Fiat Gateway (Telegram Mini App)
+* **Для чего создавалось:** Высоконагруженная P2P-биржа внутри Telegram WebApp (TMA) для безопасного обмена фиатных средств и криптовалют без посредников.
+* **Статус:** 📦 Проект законсервирован (архив / референс). Разработка остановлена из-за отзыва финансирования заказчиком, но кодовая база сохранена как полноценный пример сложной финтех-архитектуры.
+* **Что реализовано:** Escrow-депонирование средств, 2FA, скоринг и AML-проверка криптокошельков, арбитраж диспутов, мультиязычность (i18n), панель администратора.
+* **Стек:** `Next.js` • `TypeScript` • `PostgreSQL` • `Prisma ORM` • `Zustand` • `Telegram Bot API`
+
+#### 🎨 [ExplorerTags](https://github.com/Jent12312/ExplorerTags) — Windows Shell Extension
+* **Для чего создавалось:** Решение проблемы нативной визуальной организации файлов в Windows 10/11 — цветовая маркировка и тегирование папок прямо в Проводнике без замедления системы.
+* **Статус:** 🟢 Активный рабочий инструмент.
+* **Что реализовано:** Мгновенный отклик (0.1 сек) через прямые вызовы Shell API; архитектура с выносом GUI в изолированный процесс C# WPF, что полностью исключает падения `explorer.exe`.
+* **Стек:** `C` • `C++ (WinAPI, COM)` • `C# (.NET 8 WPF)`
+
+#### ⏱️ [WorkTimeBot](https://github.com/Jent12312/WorkTimeBot) — High-Performance Shift Tracker
+* **Для чего создавалось:** Автоматизация учёта рабочих смен, почасовых ставок, надбавок и расчёта бонусов для реальной команды сотрудников.
+* **Статус:** 🟢 Завершён / Эксплуатируется.
+* **Что реализовано:** Учёт времени с погрешностью до минут, еженедельная автогенерация и рассылка отчётов по понедельникам, премиальная система на основе смен.
+* **Стек:** `Modern C++20` • `Telegram Bot API` • `nlohmann/json`
+
+---
+
+### 🔒 Приватные проекты & Коммерческая разработка
+
+> [!NOTE]
+> Значительная часть моих наиболее сложных и масштабных коммерческих решений находится в **приватных репозиториях** под соглашениями о неразглашении (NDA).
+
+* **🛡️ Экосистема Aegis (Aegis Ecosystem)** — серия закрытых взаимосвязанных сервисов и инфраструктурных решений:
+  * Модули безопасности, авторизации и мониторинга;
+  * Автоматизация бизнес-процессов, боты и микросервисная архитектура;
+  * Высоконадежные закрытые бэкенд-пайплайны.
+* **🎮 GameDev & Interactive Systems** — прототипы игровых механик и интерактивной логики (C# / Unity, включая проект *Horror*).
+* **🌐 Серия веб-интерфейсов** — комплексная верстка и клиентские SPA-приложения с упором на адаптивность, семантику и чистый код.
+
+*Детали архитектуры и подходы к проектированию закрытых систем готов раскрыть при личном общении.*
+
+---
+
+### 🛠 Стек технологий
+
+| Область | Технологии |
+| :--- | :--- |
+| **Frontend** | TypeScript, JavaScript (ES6+), React, Next.js, Vue, Zustand, TailwindCSS, HTML5/CSS3 |
+| **Backend & APIs** | Node.js, Express, NestJS, REST API, WebSockets, Prisma ORM |
+| **Системная разработка** | C, C++20, Win32 API, COM Shell API, C# (.NET 8 WPF) |
+| **Базы данных & Кэш** | PostgreSQL, MongoDB, Redis |
+| **Инфраструктура** | Git, Docker, Linux, Postman, CI/CD |
+
+---
+
+### 📫 Контакты
+
+<p align="left">
+  <a href="https://t.me/Atabek12312" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+  </a>
+  <a href="https://jents.online" target="_blank">
+    <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://github.com/Jent12312" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
